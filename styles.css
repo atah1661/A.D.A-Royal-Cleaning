@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: #0058b1 ;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    position: relative;
+}
+
+.header button {
+    background-color: #0058b1;
+    border: none;
+    font-weight: bold;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+.header button:hover {
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.rt {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-bottom: 20px;
+    animation: mymove 1.5s ;
+    animation-delay: 1.3s;
+  }
+
+.slideset2 {
+    width: fit-content;
+    margin-top: 100px;
+    margin-left: 100px;
+    animation: image 1.5s;
+}
+
+.slideset3 {
+    width: 600px;
+}
+
+@keyframes mymove {
+    0%   {background: #0058b1; left: 0px; top: 0px;}
+    25%  {background: rgb(0, 0, 0); left: 1250px; top: 0px;}
+    50%  {background: rgb(0, 0, 0); left: 1250px; top: 0px;}
+    75%  {background: rgb(0, 0, 0); left: 1250px; top: 0px;}
+    100% {background: #0058b1; left: 1250px; top: 0px;}
+  }
+
+body {
+    animation: mymoves 3s;
+    background-color: #0058b1 ;
+}
+
+  @keyframes mymoves {
+   0% {background: #000000    ;}
+   1% {background:  #000102   ;}
+   2% {background:  #000203   ;}
+   3% {background: #000305   ;}
+   4% {background: #000307    ;}
+   5% {background: #000408    ;}
+   6% {background: #00050a    ;}
+   7% {background: #00060c    ;}
+   8% {background: #00070e    ;}
+   9% {background: #00080f    ;}
+   10% {background: #000911    ;}
+   11% {background: #000913    ;}
+   12% {background:  #000a14    ;}
+   13% {background: #000b16    ;}
+   14% {background: #000c18    ;}
+   15% {background:  #000d1a    ;}
+   16% {background:  #000e1b    ;}
+   17% {background:  #000e1d    ;}
+   18% {background:  #000f1f    ;}
+   19% {background:  #001020    ;}
+   20% {background:  #001122    ;}
+   21% {background:  #001224    ;}
+   22% {background:  #001325    ;}
+   23% {background:  #001427    ;}
+   24% {background:  #001429    ;}
+   25% {background:  #00152b    ;}
+   26% {background:  #00162c    ;}
+   27% {background:  #00172e    ;}
+   28% {background:  #001830    ;}
+   29% {background:  #001931    ;}
+   30% {background:  #001a33    ;}
+   31% {background:  #001a35    ;}
+   32% {background:  #001b36    ;}
+   33% {background:  #001c38    ;}
+   34% {background:  #001d3a    ;}
+   35% {background:  #001e3b    ;}
+   36% {background:  #001f3d    ;}
+   37% {background:  #002041    ;}
+   38% {background:  #002142    ;}
+   39% {background:  #002244    ;}
+   40% {background:  #002346    ;}
+   41% {background:  #002447    ;}
+   42% {background:  #002549    ;}
+   43% {background:  #00254b    ;}
+   44% {background:  #00264d    ;}
+   45% {background:  #00274e    ;}
+   46% {background:  #002850    ;}
+   47% {background:  #002952    ;}
+   48% {background:  #002a53    ;}
+   49% {background:  #002a55    ;}
+   50% {background:  #002b57    ;}
+   51% {background:  #002c58    ;}
+   52% {background:  #002d5a    ;}
+   53% {background:  #002e5c    ;}
+   54% {background:  #002f5e    ;}
+   55% {background:  #00305f    ;}
+   56% {background:  #003061    ;}
+   57% {background:  #003366    ;}
+   58% {background:  #003468    ;}
+   59% {background:  #003569    ;}
+   60% {background:  #00366b    ;}
+   61% {background:  #00366d    ;}
+   62% {background:  #00376e    ;}
+   63% {background:  #003870    ;}
+   64% {background:  #003972    ;}
+   65% {background:  #003a74    ;}
+   66% {background:  #003b75    ;}
+   67% {background:  #003c77    ;}
+   68% {background:  #003c79    ;}
+   69% {background:  #003d7a    ;}
+   70% {background:  #003e7c    ;}
+   71% {background:  #003f7e    ;}
+   72% {background:  #004080    ;}
+   73% {background:  #004181    ;}
+   74% {background:  #004183    ;}
+   75% {background:  #004285    ;}
+   76% {background:  #004386    ;}
+   77% {background:  #004488    ;}
+   78% {background:  #00458a    ;}
+   79% {background:  #00468b    ;}
+   80% {background:  #00478d    ;}
+   81% {background:  #00478f    ;}
+   82% {background:  #004891    ;}
+   83% {background:  #004992    ;}
+   84% {background:  #004a94    ;}
+   85% {background:  #004b96    ;}
+   86% {background:  #004c97    ;}
+   87% {background:  #004d99    ;}
+   88% {background:  #004e9c    ;}
+   89% {background:  #004f9e    ;}
+   90% {background:  #0050a0    ;}
+   91% {background:  #0051a1    ;}
+   92% {background:  #0052a3    ;}
+   93% {background:  #0054a8    ;}
+   94% {background:  #0053a7    ;}
+   95% {background:  #0054a8    ;}
+   96% {background:  #0055aa    ;}
+   97% {background:  #0056ac    ;}
+   98% {background:  #0057ad    ;}
+   99% {background:  #0058af    ;}
+   100% {background:  #0058b1    ;}
+  }
+     
+      @keyframes image {
+      
+        0% {opacity: 0%}
+        1% {opacity: 1%}
+        2% {opacity: 2%}
+        3% {opacity: 3%}
+        4% {opacity: 4%}
+        5% {opacity: 5%}
+        6% {opacity: 6%}
+        7% {opacity: 7%}
+        8% {opacity: 8%}
+        9% {opacity: 9%}
+        10% {opacity: 10%}
+        11% {opacity: 11%}
+        12% {opacity: 12%}
+        13% {opacity: 13%}
+        14% {opacity: 14%}
+        15% {opacity: 15%}
+        16% {opacity: 16%}
+        17% {opacity: 17%}
+        18% {opacity: 18%}
+        19% {opacity: 19%}
+        20% {opacity: 20%}
+        21% {opacity: 21%}
+        22% {opacity: 22%}
+        23% {opacity: 23%}
+        24% {opacity: 24%}
+        25% {opacity: 25%}
+        26% {opacity: 26%}
+        27% {opacity: 27%}
+        28% {opacity: 28%}
+        29% {opacity: 29%}
+        30% {opacity: 30%}
+        31% {opacity: 31%}
+        32% {opacity: 32%}
+        33% {opacity: 33%}
+        34% {opacity: 34%}
+        35% {opacity: 35%}
+        36% {opacity: 36%}
+        37% {opacity: 37%}
+        38% {opacity: 38%}
+        39% {opacity: 39%}
+        40% {opacity: 40%}
+        41% {opacity: 41%}
+        42% {opacity: 42%}
+        43% {opacity: 43%}
+        44% {opacity: 44%}
+        45% {opacity: 45%}
+        46% {opacity: 46%}
+        47% {opacity: 47%}
+        48% {opacity: 48%}
+        49% {opacity: 49%}
+        50% {opacity: 50%}
+        51% {opacity: 51%}
+        52% {opacity: 52%}
+        53% {opacity: 53%}
+        54% {opacity: 54%}
+        55% {opacity: 55%}
+        56% {opacity: 56%}
+        57% {opacity: 57%}
+        58% {opacity: 58%}
+        59% {opacity: 59%}
+        60% {opacity: 60%}
+        61% {opacity: 61%}
+        62% {opacity: 62%}
+        63% {opacity: 63%}
+        64% {opacity: 64%}
+        65% {opacity: 65%}
+        66% {opacity: 66%}
+        67% {opacity: 67%}
+        68% {opacity: 68%}
+        69% {opacity: 69%}
+        70% {opacity: 70%}
+        71% {opacity: 71%}
+        72% {opacity: 72%}
+        73% {opacity: 73%}
+        74% {opacity: 74%}
+        75% {opacity: 75%}
+        76% {opacity: 76%}
+        77% {opacity: 77%}
+        78% {opacity: 78%}
+        79% {opacity: 79%}
+        80% {opacity: 80%}
+        81% {opacity: 81%}
+        82% {opacity: 82%}
+        83% {opacity: 83%}
+        84% {opacity: 84%}
+        85% {opacity: 85%}
+        86% {opacity: 86%}
+        87% {opacity: 87%}
+        88% {opacity: 88%}
+        89% {opacity: 89%}
+        90% {opacity: 90%}
+        91% {opacity: 91%}
+        92% {opacity: 92%}
+        93% {opacity: 93%}
+        94% {opacity: 94%}
+        95% {opacity: 95%}
+        96% {opacity: 96%}
+        97% {opacity: 97%}
+        98% {opacity: 98%}
+        99% {opacity: 99%}
+        100% {opacity: 100%}
+}
+
+.des {
+    height: 340px;
+    opacity: 80%;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.Quote {
+    margin-left: 900px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.39);
+    margin-bottom: 20px;
+}
