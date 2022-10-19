@@ -7,21 +7,28 @@
     justify-content: center;
     display: flex;
     height: 40px;
+    padding-top: 30px;
     position: relative;
 }
 
-.header button {
+.header a:hover {
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.header a {
     background-color: #0058b1;
     border: none;
     font-weight: bold;
     margin-left: 70px;
     font-size: 20px;
-}
-
-.header button:hover {
-    color: white;
-    background-color: black;
-    transition: 0.5s;
+    width:100px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+     color: black;
 }
 
 .rt {
@@ -35,7 +42,7 @@
 
 .slideset2 {
     width: fit-content;
-    margin-top: 100px;
+    margin-top: 70px;
     margin-left: 100px;
     animation: image 1.5s;
 }
@@ -45,121 +52,123 @@
 }
 
 @keyframes mymove {
-    0%   {background: #0058b1; left: 0px; top: 0px;}
+    0%   {background: #e6e6e6  ; left: 0px; top: 0px;}
     25%  {background: rgb(0, 0, 0); left: 1250px; top: 0px;}
     50%  {background: rgb(0, 0, 0); left: 1250px; top: 0px;}
     75%  {background: rgb(0, 0, 0); left: 1250px; top: 0px;}
-    100% {background: #0058b1; left: 1250px; top: 0px;}
+    100% {background: #e6e6e6  ; left: 1250px; top: 0px;}
   }
 
 body {
     animation: mymoves 3s;
-    background-color: #0058b1 ;
+    background-color: #e6e6e6; 
 }
 
-  @keyframes mymoves {
-   0% {background: #000000    ;}
-   1% {background:  #000102   ;}
-   2% {background:  #000203   ;}
-   3% {background: #000305   ;}
-   4% {background: #000307    ;}
-   5% {background: #000408    ;}
-   6% {background: #00050a    ;}
-   7% {background: #00060c    ;}
-   8% {background: #00070e    ;}
-   9% {background: #00080f    ;}
-   10% {background: #000911    ;}
-   11% {background: #000913    ;}
-   12% {background:  #000a14    ;}
-   13% {background: #000b16    ;}
-   14% {background: #000c18    ;}
-   15% {background:  #000d1a    ;}
-   16% {background:  #000e1b    ;}
-   17% {background:  #000e1d    ;}
-   18% {background:  #000f1f    ;}
-   19% {background:  #001020    ;}
-   20% {background:  #001122    ;}
-   21% {background:  #001224    ;}
-   22% {background:  #001325    ;}
-   23% {background:  #001427    ;}
-   24% {background:  #001429    ;}
-   25% {background:  #00152b    ;}
-   26% {background:  #00162c    ;}
-   27% {background:  #00172e    ;}
-   28% {background:  #001830    ;}
-   29% {background:  #001931    ;}
-   30% {background:  #001a33    ;}
-   31% {background:  #001a35    ;}
-   32% {background:  #001b36    ;}
-   33% {background:  #001c38    ;}
-   34% {background:  #001d3a    ;}
-   35% {background:  #001e3b    ;}
-   36% {background:  #001f3d    ;}
-   37% {background:  #002041    ;}
-   38% {background:  #002142    ;}
-   39% {background:  #002244    ;}
-   40% {background:  #002346    ;}
-   41% {background:  #002447    ;}
-   42% {background:  #002549    ;}
-   43% {background:  #00254b    ;}
-   44% {background:  #00264d    ;}
-   45% {background:  #00274e    ;}
-   46% {background:  #002850    ;}
-   47% {background:  #002952    ;}
-   48% {background:  #002a53    ;}
-   49% {background:  #002a55    ;}
-   50% {background:  #002b57    ;}
-   51% {background:  #002c58    ;}
-   52% {background:  #002d5a    ;}
-   53% {background:  #002e5c    ;}
-   54% {background:  #002f5e    ;}
-   55% {background:  #00305f    ;}
-   56% {background:  #003061    ;}
-   57% {background:  #003366    ;}
-   58% {background:  #003468    ;}
-   59% {background:  #003569    ;}
-   60% {background:  #00366b    ;}
-   61% {background:  #00366d    ;}
-   62% {background:  #00376e    ;}
-   63% {background:  #003870    ;}
-   64% {background:  #003972    ;}
-   65% {background:  #003a74    ;}
-   66% {background:  #003b75    ;}
-   67% {background:  #003c77    ;}
-   68% {background:  #003c79    ;}
-   69% {background:  #003d7a    ;}
-   70% {background:  #003e7c    ;}
-   71% {background:  #003f7e    ;}
-   72% {background:  #004080    ;}
-   73% {background:  #004181    ;}
-   74% {background:  #004183    ;}
-   75% {background:  #004285    ;}
-   76% {background:  #004386    ;}
-   77% {background:  #004488    ;}
-   78% {background:  #00458a    ;}
-   79% {background:  #00468b    ;}
-   80% {background:  #00478d    ;}
-   81% {background:  #00478f    ;}
-   82% {background:  #004891    ;}
-   83% {background:  #004992    ;}
-   84% {background:  #004a94    ;}
-   85% {background:  #004b96    ;}
-   86% {background:  #004c97    ;}
-   87% {background:  #004d99    ;}
-   88% {background:  #004e9c    ;}
-   89% {background:  #004f9e    ;}
-   90% {background:  #0050a0    ;}
-   91% {background:  #0051a1    ;}
-   92% {background:  #0052a3    ;}
-   93% {background:  #0054a8    ;}
-   94% {background:  #0053a7    ;}
-   95% {background:  #0054a8    ;}
-   96% {background:  #0055aa    ;}
-   97% {background:  #0056ac    ;}
-   98% {background:  #0057ad    ;}
-   99% {background:  #0058af    ;}
-   100% {background:  #0058b1    ;}
-  }
+@keyframes mymoves {
+    0% {background: #3a3a3a    ;}
+    1% {background:  #3b3b3b    ;}
+    2% {background:  #3d3d3d   ;}
+    3% {background: #3f3f3f  ;}
+    4% {background: #414141    ;}
+    5% {background: #424242    ;}
+    6% {background: #444444    ;}
+    7% {background: #464646    ;}
+    8% {background: #474747   ;}
+    9% {background: #494949    ;}
+    10% {background:  #4b4b4b   ;}
+    11% {background: #4d4d4d    ;}
+    12% {background:  #4e4e4e   ;}
+    13% {background: #505050    ;}
+    14% {background: #525252   ;}
+    15% {background:  #535353    ;}
+    16% {background:  #555555    ;}
+    17% {background:  #575757    ;}
+    18% {background:  #585858   ;}
+    19% {background:  #5a5a5a   ;}
+    20% {background:  #5c5c5c    ;}
+    21% {background:  #5e5e5e    ;}
+    22% {background:  #5f5f5f    ;}
+    23% {background:  #616161    ;}
+    24% {background:  #636363    ;}
+    25% {background:  #646464    ;}
+    26% {background:  #666666    ;}
+    27% {background:  #686868    ;}
+    28% {background:  #696969    ;}
+    29% {background:  #6b6b6b   ;}
+    30% {background:  #6d6d6d     ;}
+    31% {background:  #6e6e6e    ;}
+    32% {background:  #707070     ;}
+    33% {background:  #727272    ;}
+    34% {background:  #747474     ;}
+    35% {background:  #757575   ;}
+    36% {background:  #777777     ;}
+    37% {background:  #797979   ;}
+    38% {background:  #7a7a7a     ;}
+    39% {background:  #7c7c7c     ;}
+    40% {background:  #7e7e7e   ;}
+    41% {background:  #808080     ;}
+    42% {background:  #818181   ;}
+    43% {background:  #838383   ;}
+    44% {background:  #858585    ;}
+    45% {background:  #868686   ;}
+    46% {background:  #888888     ;}
+    47% {background:  #8a8a8a    ;}
+    48% {background:  #8b8b8b     ;}
+    49% {background:  #8d8d8d    ;}
+    50% {background:  #8f8f8f     ;}
+    51% {background:  #919191    ;}
+    52% {background:  #929292    ;}
+    53% {background:  #949494    ;}
+    54% {background:  #969696   ;}
+    55% {background:  #979797   ;}
+    56% {background:  #999999     ;}
+    57% {background:  #9b9b9b    ;}
+    58% {background:  #9c9c9c   ;}
+    59% {background:  #9e9e9e    ;}
+    60% {background:  #a0a0a0    ;}
+    61% {background:  #a1a1a1    ;}
+    62% {background:  #a5a5a5   ;}
+    63% {background:  #a7a7a7    ;}
+    64% {background:  #a8a8a8   ;}
+    65% {background:  #aaaaaa    ;}
+    66% {background:  #acacac    ;}
+    67% {background:  #adadad    ;}
+    68% {background:  #afafaf    ;}
+    69% {background:  #b1b1b1    ;}
+    70% {background:  #b3b3b3    ;}
+    71% {background:  #b4b4b4   ;}
+    72% {background:  #b6b6b6    ;}
+    73% {background:  #b8b8b8       ;}
+    74% {background:  #b9b9b9    ;}
+    75% {background:  #bbbbbb    ;}
+    76% {background:  #bdbdbd     ;}
+    77% {background:  #bebebe    ;}
+    78% {background:  #c0c0c0    ;}
+    79% {background:  #c2c2c2    ;}
+    80% {background:  #c4c4c4    ;}
+    81% {background:   #c5c5c5    ;}
+    82% {background:  #c7c7c7    ;}
+    83% {background:  #c9c9c9     ;}
+    84% {background:  #cacaca     ;}
+    85% {background:  #cccccc    ;}
+    86% {background:  #cecece    ;}
+    87% {background:  #cfcfcf     ;}
+    88% {background:  #d1d1d1    ;}
+    89% {background:  #d3d3d3    ;}
+    90% {background:  #d4d4d4    ;}
+    91% {background:  #d6d6d6    ;}
+    92% {background:  #d8d8d8    ;}
+    93% {background:  #dadada    ;}
+    94% {background:  #dbdbdb    ;}
+    95% {background:  #dddddd    ;}
+    96% {background:  #dfdfdf    ;}
+    97% {background:  #e0e0e0    ;}
+    98% {background:  #e2e2e2    ;}
+    99% {background:  #e4e4e4    ;}
+    100% {background:  #e6e6e6    ;}
+    
+   }
+  
      
       @keyframes image {
       
