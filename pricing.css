@@ -1,0 +1,52 @@
+   
+.pricing {
+    width: 98%;
+    padding: 10px;
+    height: fit-content;
+}
+
+.pricing h1 {
+    text-align: center;
+}
+
+.studio {
+   background-color: black;  
+   color: white;
+   border: 2px solid #e6e6e6  ;
+   opacity: 80%;
+   margin-top: 20px;
+   text-align: center;
+}
+
+.studio:hover {
+    border: 2px solid white;
+    transition:0.6s;
+    background-color: black;
+    opacity: 100%;
+}
+
+.allbaths {
+    background-color: #88bb0f;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+.allbaths:hover {
+    background-color: #88bb0f;
+    border: 2px solid white;
+    transition: 0.6s;
+ }
+
+ .service {
+    background-color: #88bb0f;
+    border: 2px solid black;
+    font-weight: bolder;
+    color:black;
+ }
+
+ .service:hover {
+    background-color: #88bb0f;
+    border: 2px solid white;
+    color:black;
+}
+
