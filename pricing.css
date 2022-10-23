@@ -1,0 +1,101 @@
+   
+.pricing {
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    justify-content: left;
+    display: flex;
+   
+}
+
+.pricing h1 {
+    text-align: center;
+}
+
+.studio {
+   background-color: black;  
+   color: white;
+   border: 2px solid #e6e6e6  ;
+   opacity: 80%;
+   margin-top: 20px;
+   text-align: center;
+   width: fit-content;
+   display: block;  
+}
+
+
+.studio:hover {
+    border: 2px solid white;
+    transition:0.6s;
+    background-color: black;
+    opacity: 100%;
+}
+
+.studio button {
+    background-color: transparent;
+    border: none;
+    transition: 0.8s;
+}
+
+.studiobedroom {
+    height: 50px;
+    width: 300px;
+}
+
+.onebedroom {
+    height: 50px;
+    width: 300px;       
+}
+
+.twobedroom {
+    height: 50px;
+    width: 300px;   
+}
+
+.threebedroom {
+    height: 50px; 
+    width: 300px;     
+}
+
+.fourbedroom {
+    height: 50px;
+    width: 300px;  
+}
+
+.fivebedroom {
+    width: 300px;  
+    height: 50px;    
+}
+
+.sixbedroom {
+    height: 50px;
+    width: 300px;      
+}
+
+.studiobath {
+    color: transparent;
+}
+
+.onebath {
+    color: transparent;
+}
+
+.twobathroom {
+    color: transparent;
+}
+
+.threebath {
+    color: transparent;
+}
+
+.fourbath {
+    color: transparent;
+}
+
+.fivebath {
+    color: transparent;
+}
+
+.sixbath {
+    color: transparent;
+}
